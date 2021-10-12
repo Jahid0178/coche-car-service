@@ -6,7 +6,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" sticky="top">
         <Container fluid>
           <Navbar.Brand href="#home">Coche</Navbar.Brand>
           <Nav className="ms-auto">
